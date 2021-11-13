@@ -1,0 +1,118 @@
+.header-container,
+.site-nav,
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--hover-color);
+}
+
+.icon-mail,
+.icon-smartphone {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo-black {
+  margin-right: 93px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo-black {
+  color: var(--primary-text-color);
+}
+
+.header-logo:hover > .logo-black,
+.header-logo:focus > .logo-black,
+.footer-logo:hover > .logo-white,
+.footer-logo:focus > .logo-white {
+  color: var(--hover-color);
+}
+
+/* site-nav */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--hover-color);
+}
+
+.link-current {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--hover-color);
+}
+
+.site-nav .link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-item,
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.navigation {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* contacts-link */
+.contacts-link:hover,
+.contacts-link:focus {
+  text-decoration: none;
+  color: var(--hover-color);
+}
+.contacts-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-contacts {
+  margin-left: auto;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
