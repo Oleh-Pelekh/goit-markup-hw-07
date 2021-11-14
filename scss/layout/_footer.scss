@@ -64,6 +64,16 @@
   display: inline-block;
 }
 
+.adress-footer {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
 .adress-info {
   margin-bottom: 9px;
   text-decoration: none;
