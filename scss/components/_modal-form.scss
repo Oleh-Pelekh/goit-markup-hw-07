@@ -39,11 +39,11 @@
   border-radius: 4px;
   padding-left: 42px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-form-imput:focus {
-  outline: none;
-  border-color: var(--hover-color);
+  &:focus {
+    outline: none;
+    border-color: var(--hover-color);
+  }
 }
 
 .modal-form-imput:focus + .modal-form-icon {
@@ -63,15 +63,15 @@
   padding-bottom: 12px;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline: none;
+    border-color: var(--hover-color);
+  }
 }
 
 .modal-form-message::placeholder {
   color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form-message:focus {
-  outline: none;
-  border-color: var(--hover-color);
 }
 
 .modal-form-icon {
