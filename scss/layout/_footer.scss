@@ -7,6 +7,11 @@
   color: var(--hover-color);
 }
 
+.footer-logo:hover > .logo-white,
+.footer-logo:focus > .logo-white {
+  color: var(--hover-color);
+}
+
 .logo-white {
   color: var(--accent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);

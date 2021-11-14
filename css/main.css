@@ -349,13 +349,13 @@ img {
   bottom: 5px;
 }
 
-.header-container,
+.page-header__container,
 .site-nav {
   display: flex;
   align-items: center;
 }
 
-.contacts {
+.header-contacts__list {
   display: flex;
   align-items: center;
   font-style: normal;
@@ -365,7 +365,7 @@ img {
   color: var(--accent-color);
 }
 
-.header-logo {
+.site-nav__logo {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-size: 26px;
@@ -374,8 +374,7 @@ img {
   color: var(--hover-color);
 }
 
-.icon-mail,
-.icon-smartphone {
+.header-contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
@@ -386,29 +385,24 @@ img {
   padding-bottom: 25px;
 }
 
-.logo-black {
+.site-nav__black {
+  color: var(--primary-text-color);
   margin-right: 93px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-black {
-  color: var(--primary-text-color);
-}
-
-.header-logo:hover > .logo-black,
-.header-logo:focus > .logo-black,
-.footer-logo:hover > .logo-white,
-.footer-logo:focus > .logo-white {
+.site-nav__logo:hover > .site-nav__black,
+.site-nav__logo:focus > .site-nav__black {
   color: var(--hover-color);
 }
 
 /* site-nav */
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--hover-color);
 }
 
-.link-current {
+.site-nav__current {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -417,7 +411,7 @@ img {
   color: var(--hover-color);
 }
 
-.site-nav .link {
+.site-nav__link {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -427,23 +421,23 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-item,
-.contacts-item:not(:last-child) {
+.site-nav__item,
+.header-contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-item {
+.site-nav__item {
   position: relative;
 }
 
 /* contacts-link */
-.contacts-link:hover,
-.contacts-link:focus {
+.header-contacts__link:hover,
+.header-contacts__link:focus {
   text-decoration: none;
   color: var(--hover-color);
 }
 
-.contacts-link {
+.header-contacts__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -843,6 +837,11 @@ img {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  color: var(--hover-color);
+}
+
+.footer-logo:hover > .logo-white,
+.footer-logo:focus > .logo-white {
   color: var(--hover-color);
 }
 

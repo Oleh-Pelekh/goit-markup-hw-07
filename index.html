@@ -32,41 +32,43 @@
 
   <body class="body">
     <header class="page-header">
-      <div class="container header-container">
+      <div class="page-header__container container">
         <!-- Хедер лого -->
         <nav class="site-nav">
-          <a href="./index.html" class="header-logo"
-            >Web<span class="logo-black">Studio</span></a
+          <a href="./index.html" class="site-nav__logo"
+            >Web<span class="site-nav__black">Studio</span></a
           >
 
           <!-- Навигація -->
           <ul class="site-nav">
-            <li class="menu-item">
-              <a href="./index.html" class="link-current current">Студия</a>
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__current current"
+                >Студия</a
+              >
             </li>
-            <li class="menu-item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
-            <li class="menu-item">
-              <a href="#contacts" class="link">Контакты</a>
+            <li class="site-nav__item">
+              <a href="#contacts" class="site-nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <!-- Контакти хедер -->
         <div class="header-contacts">
-          <ul class="contacts">
-            <li class="contacts-item">
-              <a href="mailto:info@devstudio.com" class="contacts-link">
-                <svg class="icon-mail" width="16px" height="12px">
+          <ul class="header-contacts__list">
+            <li class="header-contacts__item">
+              <a href="mailto:info@devstudio.com" class="header-contacts__link">
+                <svg class="header-contacts__icon" width="16px" height="12px">
                   <use href="./images/sprite.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
-            <li class="contacts-item">
-              <a href="tel:+380961111111" class="contacts-link">
-                <svg class="icon-smartphone" width="10px" height="16px">
+            <li class="header-contacts__item">
+              <a href="tel:+380961111111" class="header-contacts__link">
+                <svg class="header-contacts__icon" width="10px" height="16px">
                   <use href="./images/sprite.svg#icon-cell"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -456,7 +458,7 @@
           >
 
           <!-- Адреса -->
-          <address class="contacts adress" id="contacts">
+          <address class="header-contacts__list adress" id="contacts">
             <ul class="">
               <li class="footer-adress">
                 <a href="/" class="adress-info"
