@@ -151,7 +151,7 @@ img {
   fill: var(--accent-color);
 }
 
-.current:after {
+.site-nav__link_line:after {
   content: "";
   width: 100%;
   position: absolute;
@@ -400,7 +400,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__logo {
+.site-nav__logo_position {
   margin-right: 93px;
 }
 
@@ -424,6 +424,14 @@ img {
   color: var(--hover-color);
 }
 
+.site-nav__item_position:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-contacts__item_position:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav__link_current {
   text-decoration: none;
   font-weight: 500;
@@ -431,10 +439,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--hover-color);
-}
-
-.header__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .site-nav__item {
