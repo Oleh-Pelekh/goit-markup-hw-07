@@ -884,8 +884,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-contacts:hover,
-.footer-contacts:focus {
+.footer-contacts:hover, .footer-contacts:focus {
   text-decoration: none;
   color: var(--hover-color);
 }
@@ -933,8 +932,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adress-info:hover,
-.adress-info:focus {
+.adress-info:hover, .adress-info:focus {
   color: var(--hover-color);
 }
 
@@ -958,14 +956,14 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), drop-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-mail-footer::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .input-mail-footer:focus {
   outline: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-color: var(--hover-color);
+}
+
+.input-mail-footer::placeholder {
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .footer-btn {
@@ -987,8 +985,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-btn:hover,
-.footer-btn:focus {
+.footer-btn:hover, .footer-btn:focus {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -1042,17 +1039,16 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-social:hover,
-.link-social:focus {
+.link-social:hover, .link-social:focus {
   background-color: var(--hover-color);
+}
+
+.icon-social {
+  fill: var(--accent-color);
 }
 
 .link-social:hover .icon-social,
 .link-social:focus .icon-social {
-  fill: var(--accent-color);
-}
-
-.icon-social {
   fill: var(--accent-color);
 }
 
