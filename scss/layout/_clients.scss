@@ -15,11 +15,11 @@
   background-size: 106px;
   background-repeat: no-repeat;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-after-items:hover,
-.clients-after-items:focus {
-  border-color: var(--hover-color);
+  &:hover,
+  &:focus {
+    border-color: var(--hover-color);
+  }
 }
 
 .clients-link {
@@ -30,9 +30,9 @@
   justify-content: center;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients-link:hover,
-.clients-link:focus {
-  fill: var(--hover-color);
+  &:hover,
+  &:focus {
+    fill: var(--hover-color);
+  }
 }
